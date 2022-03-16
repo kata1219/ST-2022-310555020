@@ -25,5 +25,5 @@ jobs:
         cache: maven
         
     - name: Build with Maven
-      run: mvn  --file pom.xml exec:java -Dexec.mainClass="PriorityQueueTest.java" 
+      run: mvn test
 
